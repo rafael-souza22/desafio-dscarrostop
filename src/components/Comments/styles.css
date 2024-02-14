@@ -1,0 +1,36 @@
+#ct-comments-section {
+  padding: 25px 20px;
+  background-color: var(--ct-color-bg-terciary);
+}
+
+.ct-comments-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#ct-comments-section h2 {
+  color: var(--ct-color-font-secondary);
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.ct-card-comment {
+  border-radius: 12px;
+  border: 1px solid #3c9af0;
+  padding: 25px 20px;
+  margin-top: 25px;
+  background-color: var(--ct-color-bg-primary);
+}
+
+.ct-card-comment p {
+  font-size: 16px;
+  color: var(--ct-color-font-terciary);
+}
+
+@media (min-width: 1200px) {
+  #ct-comments-section h2 {
+    font-size: 32px;
+  }
+}

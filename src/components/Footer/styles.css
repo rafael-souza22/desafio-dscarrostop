@@ -1,0 +1,31 @@
+.ct-footer-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--ct-color-bg-secondary);
+  font-size: 16px;
+  color: var(--ct-color-font-primary);
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  footer a {
+    margin-bottom: 0;
+  }
+  .ct-footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
